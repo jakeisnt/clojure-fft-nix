@@ -12,7 +12,10 @@
   (let
     [k 7
      n 10000
+
+     ;; k * k matrix of zeroes
      zero (m/zero-matrix k k)
+     ;;
      vecs (for [_ (range n)] (shuffle (range k)))
      a (->> vecs
             (map m/permutation-matrix)

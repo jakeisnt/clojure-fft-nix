@@ -1,9 +1,10 @@
 
-#+title: a sample clojure project set up with nix/os
+#+title: A sample Clojure project set up with Nix
 
- ``` sh
+Every time a dependency is added to `deps.edn`, you'll want to regenerate `deps-lock.edn`. Use the following command:
+
+#+begin_src sh
  nix run github:jlesquembre/clj-nix#deps-lock
- ```
+ #+end_src
 
-test code from this tutorial:
-https://grahamenos.com/ft-clojure-nix.html
+Test code used in this repository comes from [[Graham Enos' article][https://grahamenos.com/ft-clojure-nix.html]]. Admittedly, though the mathematician's backstory is interesting, I didn't find the idea as novel as Graham did - it seems like a natural consequence of definitions - though maybe I'm missing something!
