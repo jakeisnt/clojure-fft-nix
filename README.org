@@ -1,5 +1,6 @@
 
- net.mikera/core.matrix {:mvn/version "0.62.0"}
+#+title: a sample clojure project set up with nix/os
+
  ``` sh
  nix run github:jlesquembre/clj-nix#deps-lock
  ```
