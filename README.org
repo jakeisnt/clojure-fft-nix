@@ -3,3 +3,6 @@
  ``` sh
  nix run github:jlesquembre/clj-nix#deps-lock
  ```
+
+test code from this tutorial:
+https://grahamenos.com/ft-clojure-nix.html
