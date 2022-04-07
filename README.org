@@ -21,4 +21,4 @@ clj -X hello.core/-main
 
 * Source
 
-Test code used in this repository comes from [[Graham Enos' article][https://grahamenos.com/ft-clojure-nix.html]]. Admittedly, though the mathematician's backstory is interesting, I didn't find the idea as novel as Graham did - it seems like a natural consequence of definitions - though maybe I'm missing something!
+Test code used in this repository comes from [[https://grahamenos.com/ft-clojure-nix.html][Graham Enos' article]]. Admittedly, though the mathematician's backstory is interesting, I didn't find the idea as novel as Graham did - it seems like a natural consequence of definitions - though maybe I'm missing something!
