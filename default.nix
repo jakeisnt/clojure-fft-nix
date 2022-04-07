@@ -42,7 +42,7 @@ let
   };
 
 in
-  stdenv.mkDerivation {
+  stdenv.mkDerivation rec {
     name = "diaconis.clj";
     src = ./.;
     buildInputs = [ clojure jdk ];
