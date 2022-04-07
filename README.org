@@ -1,3 +1,0 @@
-#+title: sample reproducible clojure environment and program
-
-https://grahamenos.com/ft-clojure-nix.html
