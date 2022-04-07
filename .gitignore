@@ -1,3 +1,5 @@
 .direnv/*
 !.direnv/.git-keep
 result
+
+.cpcache
