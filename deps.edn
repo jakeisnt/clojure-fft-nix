@@ -1,2 +1,8 @@
-{:deps {org.clojure/clojure {:mvn/version "1.11.0"}}
- :paths ["src"]}
+{:deps
+ {
+  org.clojure/clojure {:mvn/version "1.11.0"}
+  tesser.core/tesser.core {:mvn/version "1.0.4"}
+  net.mikera/core.matrix {:mvn/version "0.62.0"}
+  }
+ :paths ["src"]
+ }

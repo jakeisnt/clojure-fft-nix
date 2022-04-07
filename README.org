@@ -1,0 +1,5 @@
+
+ net.mikera/core.matrix {:mvn/version "0.62.0"}
+ ``` sh
+ nix run github:jlesquembre/clj-nix#deps-lock
+ ```

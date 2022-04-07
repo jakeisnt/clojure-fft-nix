@@ -10,6 +10,24 @@
       "hash": "sha256-PiH6daB+yd278bK1A1bPGAcQ0DmN6qT0TpHNYwRVWUc="
     },
     {
+      "url": "https://repo.clojars.org/tesser/core/tesser.core/1.0.4/tesser.core-1.0.4.jar",
+      "path": "tesser/core/tesser.core/1.0.4/tesser.core-1.0.4.jar",
+      "lib-name": "tesser.core/tesser.core",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/44mpmpwycgzwchw5y2kf83vnvbk21vag-tesser.core-1.0.4.jar",
+      "hash": "sha256-ANRFQmHCHUfv1+lrHxhkUKE/s7BM98nyNVl5JFG0ISw="
+    },
+    {
+      "url": "https://repo.clojars.org/net/mikera/core.matrix/0.62.0/core.matrix-0.62.0.jar",
+      "path": "net/mikera/core.matrix/0.62.0/core.matrix-0.62.0.jar",
+      "lib-name": "net.mikera/core.matrix",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/rzakqblfgdrgnsq8w3fc1wh2rjj5fp4s-core.matrix-0.62.0.jar",
+      "hash": "sha256-ztPm6xUgQt2iKacx1it7/cSZOWEod+66z0W+Bu2txrY="
+    },
+    {
       "url": "https://repo1.maven.org/maven2/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar",
       "path": "org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar",
       "lib-name": "org.clojure/spec.alpha",
@@ -26,7 +44,25 @@
       "type": "mvn",
       "nix-path": "/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar",
       "hash": "sha256-Bu6owHC75FwVhWfkQ0OWgbyMRukSNBT4G/oyukLWy8g="
+    },
+    {
+      "url": "https://repo.clojars.org/interval-metrics/interval-metrics/1.0.0/interval-metrics-1.0.0.jar",
+      "path": "interval-metrics/interval-metrics/1.0.0/interval-metrics-1.0.0.jar",
+      "lib-name": "interval-metrics/interval-metrics",
+      "repo": "https://repo.clojars.org/",
+      "type": "mvn",
+      "nix-path": "/nix/store/81ql2ik3gkywx5h1vg4nfx3iydkji987-interval-metrics-1.0.0.jar",
+      "hash": "sha256-9E/IZJnLC9kc5Mds2W62X0H+vb0L5Q+684pYF0AnwPU="
+    },
+    {
+      "url": "https://repo1.maven.org/maven2/org/clojure/tools.macro/0.1.5/tools.macro-0.1.5.jar",
+      "path": "org/clojure/tools.macro/0.1.5/tools.macro-0.1.5.jar",
+      "lib-name": "org.clojure/tools.macro",
+      "repo": "https://repo1.maven.org/maven2/",
+      "type": "mvn",
+      "nix-path": "/nix/store/cvp8gwxw7fd5p72n8javxydhy9c2sgqd-tools.macro-0.1.5.jar",
+      "hash": "sha256-JxTXKUyQ+SaO7vNyj+TZjr+q7fJAoCN02u8rhVhEgkg="
     }
   ],
-  "clj-runtime": "{:libs #:org.clojure{clojure {:mvn/version \"1.11.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\"]}, spec.alpha {:mvn/version \"0.3.218\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\"]}, core.specs.alpha {:mvn/version \"0.2.62\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\"]}}, :mvn/repos {\"central\" {:url \"https://repo1.maven.org/maven2/\"}, \"clojars\" {:url \"https://repo.clojars.org/\"}}, :classpath {\"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" {:lib-name org.clojure/spec.alpha}, \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\" {:lib-name org.clojure/core.specs.alpha}, \"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\" {:lib-name org.clojure/clojure}}, :classpath-roots [\"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\" \"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\"]}\n"
+  "clj-runtime": "{:libs {org.clojure/clojure {:mvn/version \"1.11.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\"]}, tesser.core/tesser.core {:mvn/version \"1.0.4\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/44mpmpwycgzwchw5y2kf83vnvbk21vag-tesser.core-1.0.4.jar\"]}, net.mikera/core.matrix {:mvn/version \"0.62.0\", :deps/manifest :mvn, :parents #{[]}, :paths [\"/nix/store/rzakqblfgdrgnsq8w3fc1wh2rjj5fp4s-core.matrix-0.62.0.jar\"]}, org.clojure/spec.alpha {:mvn/version \"0.3.218\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\"]}, org.clojure/core.specs.alpha {:mvn/version \"0.2.62\", :deps/manifest :mvn, :dependents [org.clojure/clojure], :parents #{[org.clojure/clojure]}, :paths [\"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\"]}, interval-metrics/interval-metrics {:mvn/version \"1.0.0\", :deps/manifest :mvn, :dependents [tesser.core/tesser.core], :parents #{[tesser.core/tesser.core]}, :paths [\"/nix/store/81ql2ik3gkywx5h1vg4nfx3iydkji987-interval-metrics-1.0.0.jar\"]}, org.clojure/tools.macro {:mvn/version \"0.1.5\", :deps/manifest :mvn, :dependents [net.mikera/core.matrix], :parents #{[net.mikera/core.matrix]}, :paths [\"/nix/store/cvp8gwxw7fd5p72n8javxydhy9c2sgqd-tools.macro-0.1.5.jar\"]}}, :mvn/repos {\"central\" {:url \"https://repo1.maven.org/maven2/\"}, \"clojars\" {:url \"https://repo.clojars.org/\"}}, :classpath {\"/nix/store/cvp8gwxw7fd5p72n8javxydhy9c2sgqd-tools.macro-0.1.5.jar\" {:lib-name org.clojure/tools.macro}, \"/nix/store/44mpmpwycgzwchw5y2kf83vnvbk21vag-tesser.core-1.0.4.jar\" {:lib-name tesser.core/tesser.core}, \"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" {:lib-name org.clojure/spec.alpha}, \"/nix/store/rzakqblfgdrgnsq8w3fc1wh2rjj5fp4s-core.matrix-0.62.0.jar\" {:lib-name net.mikera/core.matrix}, \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\" {:lib-name org.clojure/core.specs.alpha}, \"/nix/store/81ql2ik3gkywx5h1vg4nfx3iydkji987-interval-metrics-1.0.0.jar\" {:lib-name interval-metrics/interval-metrics}, \"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\" {:lib-name org.clojure/clojure}}, :classpath-roots [\"/nix/store/lixnadpnkssidna4jdh1q16q0zbq00r6-clojure-1.11.0.jar\" \"/nix/store/44mpmpwycgzwchw5y2kf83vnvbk21vag-tesser.core-1.0.4.jar\" \"/nix/store/rzakqblfgdrgnsq8w3fc1wh2rjj5fp4s-core.matrix-0.62.0.jar\" \"/nix/store/jnj5z8n6j0ryy2jzzfsf1az3vzwkcr9n-spec.alpha-0.3.218.jar\" \"/nix/store/4ixf0sxnhdjqsh5xdfbq711mlj5q4x9l-core.specs.alpha-0.2.62.jar\" \"/nix/store/81ql2ik3gkywx5h1vg4nfx3iydkji987-interval-metrics-1.0.0.jar\" \"/nix/store/cvp8gwxw7fd5p72n8javxydhy9c2sgqd-tools.macro-0.1.5.jar\"]}\n"
 }
