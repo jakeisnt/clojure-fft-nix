@@ -3,6 +3,8 @@
 
 * Managing dependencies
 
+This project is set up to use the `clj` cli tool and `deps.edn`. Results will vary if using other build systems.
+
 Every time a dependency is added to `deps.edn`, you'll want to regenerate `deps-lock.edn`. Use the following command:
 
 #+begin_src sh
