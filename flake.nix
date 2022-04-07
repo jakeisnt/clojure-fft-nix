@@ -45,7 +45,6 @@
           name = "clojure-fft-nix";
           buildInputs = with cljpkgs; [
             clojure
-            leiningen
             clojure-lsp
           ];
         };
